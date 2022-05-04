@@ -1,0 +1,15 @@
+
+.home__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home__text{
+    font-weight: bolder;
+    font-family: var(--font-special);
+    font-size:clamp(3rem,3.5vw,3.5rem);
+    text-align: center;
+    margin-bottom: 2rem;
+}
